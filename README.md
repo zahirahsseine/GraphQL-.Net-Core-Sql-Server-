@@ -3,7 +3,7 @@
    This is simple project for training in GraphQL:
    
   ### Required :
-   -Entity Framework.
+   -Entity Framework Core.
    -.Net Core 3.
    -Sql Server.
  ### Execution of project:
