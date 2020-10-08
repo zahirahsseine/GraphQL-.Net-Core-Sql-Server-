@@ -1,0 +1,374 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\zahira\\source\\repos\\GraphqlIt\\GraphqlIt.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\zahira\\source\\repos\\GraphqlIt.DataAccess\\GraphqlIt.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zahira\\source\\repos\\GraphqlIt.DataAccess\\GraphqlIt.DataAccess.csproj",
+        "projectName": "GraphqlIt.DataAccess",
+        "projectPath": "C:\\Users\\zahira\\source\\repos\\GraphqlIt.DataAccess\\GraphqlIt.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\zahira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zahira\\source\\repos\\GraphqlIt.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zahira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://packages.nuget.org/v1/FeedService.svc/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\zahira\\source\\repos\\GraphqlIt.DataBase\\GraphqlIt.DataBase.csproj": {
+                "projectPath": "C:\\Users\\zahira\\source\\repos\\GraphqlIt.DataBase\\GraphqlIt.DataBase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zahira\\source\\repos\\GraphqlIt.DataBase\\GraphqlIt.DataBase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zahira\\source\\repos\\GraphqlIt.DataBase\\GraphqlIt.DataBase.csproj",
+        "projectName": "GraphqlIt.DataBase",
+        "projectPath": "C:\\Users\\zahira\\source\\repos\\GraphqlIt.DataBase\\GraphqlIt.DataBase.csproj",
+        "packagesPath": "C:\\Users\\zahira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zahira\\source\\repos\\GraphqlIt.DataBase\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zahira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://packages.nuget.org/v1/FeedService.svc/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zahira\\source\\repos\\GraphqlIt.Types\\GraphqlIt.Types.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zahira\\source\\repos\\GraphqlIt.Types\\GraphqlIt.Types.csproj",
+        "projectName": "GraphqlIt.Types",
+        "projectPath": "C:\\Users\\zahira\\source\\repos\\GraphqlIt.Types\\GraphqlIt.Types.csproj",
+        "packagesPath": "C:\\Users\\zahira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zahira\\source\\repos\\GraphqlIt.Types\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zahira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://packages.nuget.org/v1/FeedService.svc/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\zahira\\source\\repos\\GraphqlIt.DataAccess\\GraphqlIt.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\zahira\\source\\repos\\GraphqlIt.DataAccess\\GraphqlIt.DataAccess.csproj"
+              },
+              "C:\\Users\\zahira\\source\\repos\\GraphqlIt.DataBase\\GraphqlIt.DataBase.csproj": {
+                "projectPath": "C:\\Users\\zahira\\source\\repos\\GraphqlIt.DataBase\\GraphqlIt.DataBase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "GraphQL": {
+              "target": "Package",
+              "version": "[3.0.0.2026, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zahira\\source\\repos\\GraphqlIt.Utilities\\GraphqlIt.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zahira\\source\\repos\\GraphqlIt.Utilities\\GraphqlIt.Utilities.csproj",
+        "projectName": "GraphqlIt.Utilities",
+        "projectPath": "C:\\Users\\zahira\\source\\repos\\GraphqlIt.Utilities\\GraphqlIt.Utilities.csproj",
+        "packagesPath": "C:\\Users\\zahira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zahira\\source\\repos\\GraphqlIt.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zahira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://packages.nuget.org/v1/FeedService.svc/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "GraphQL": {
+              "target": "Package",
+              "version": "[3.0.0.2026, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\zahira\\source\\repos\\GraphqlIt\\GraphqlIt.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\zahira\\source\\repos\\GraphqlIt\\GraphqlIt.csproj",
+        "projectName": "GraphqlIt",
+        "projectPath": "C:\\Users\\zahira\\source\\repos\\GraphqlIt\\GraphqlIt.csproj",
+        "packagesPath": "C:\\Users\\zahira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zahira\\source\\repos\\GraphqlIt\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zahira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://packages.nuget.org/v1/FeedService.svc/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\zahira\\source\\repos\\GraphqlIt.DataAccess\\GraphqlIt.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\zahira\\source\\repos\\GraphqlIt.DataAccess\\GraphqlIt.DataAccess.csproj"
+              },
+              "C:\\Users\\zahira\\source\\repos\\GraphqlIt.DataBase\\GraphqlIt.DataBase.csproj": {
+                "projectPath": "C:\\Users\\zahira\\source\\repos\\GraphqlIt.DataBase\\GraphqlIt.DataBase.csproj"
+              },
+              "C:\\Users\\zahira\\source\\repos\\GraphqlIt.Types\\GraphqlIt.Types.csproj": {
+                "projectPath": "C:\\Users\\zahira\\source\\repos\\GraphqlIt.Types\\GraphqlIt.Types.csproj"
+              },
+              "C:\\Users\\zahira\\source\\repos\\GraphqlIt.Utilities\\GraphqlIt.Utilities.csproj": {
+                "projectPath": "C:\\Users\\zahira\\source\\repos\\GraphqlIt.Utilities\\GraphqlIt.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "GraphQL": {
+              "target": "Package",
+              "version": "[3.0.0.2026, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "entityframework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "graphiql": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
